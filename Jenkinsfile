@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from the GitHub repository
-                git url: 'https://github.com/yuva143kolla/java-docs-spring-hello-world.git', branch: 'main'
+                git url: 'https://github.com/yuva143kolla/java-docs-spring-hello-world.git', branch: 'develop'
             }
         }
 
